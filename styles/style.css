@@ -139,6 +139,11 @@
   margin: 0 auto 20px;
 }
 
+.section-title_theme_dark {
+  z-index: 1;
+}
+
+
 .section-subtitle {
   width: 60%;
   text-align: center;
@@ -146,6 +151,10 @@
   font-size: 24px;
   font-weight: normal;
   margin: 0 auto;
+}
+
+.section-subtitle_theme_dark {
+  z-index: 1;
 }
 
 .table {
@@ -171,6 +180,7 @@
   margin-top: 80px;
   z-index: 1;
 }
+
 .table__heading {
   padding-bottom: 20px;
   margin: 0;
@@ -241,7 +251,6 @@
   padding-bottom: 90px;
   background-color: #1f1f1f;
   color: white;
-  z-index: 1;
 }
 
 .kaufman__triangle {
